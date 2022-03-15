@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Indie Flower", cursive;
+  background: #a39bd2;
+}
+
+.wrapper {
+  margin: auto;
+  width: 95%;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#clock {
+  font-weight: normal;
+  font-size: 80px;
+  color: #ceafff;
+  margin-bottom: 0;
+}
+
+#date {
+  color: #fffda2;
+  font-size: 30px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid;
+}
+
+.container {
+  width: 80%;
+  height: auto;
+  min-height: 500px;
+  max-width: 500px;
+  min-width: 250px;
+  background: #fbf8f1;
+  background-size: 25px 25px;
+  border-radius: 30px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 500px) {
+  .heading__title {
+    font-size: 2rem;
+  }
+}
+.form__label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-size: 22px;
+}
+.form__input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  border: dashed 2px #ea95e0;
+  font-size: 15px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+.btn {
+  border-radius: 0 5px 5px 0;
+  border: dotted 3px #a39bd2;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+ul li {
+  font-size: 25px;
+  font-weight: bold;
+  list-style-type: "⚡️";
+  margin-right: 4px;
+}
+
+@media (min-width: 750px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    width: 85%;
+  }
+  .container {
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .wrapper {
+    width: 50%;
+    margin-top: 100px;
+  }
+  .container {
+    margin-bottom: 100px;
+  }
+
+  #main-form {
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .wrapper {
+    width: 25%;
+  }
+  .container {
+    width: 25%;
+  }
+}
